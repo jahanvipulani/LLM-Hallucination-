@@ -1,0 +1,29 @@
+[
+    {
+        "Method": "Majority baseline",
+        "Test records": 2700,
+        "Accuracy": 0.6507407407407407,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1-score": 0.0,
+        "AUROC": null
+    },
+    {
+        "Method": "Lexical overlap",
+        "Test records": 2700,
+        "Accuracy": 0.6151851851851852,
+        "Precision": 0.47294250281848926,
+        "Recall": 0.8897136797454931,
+        "F1-score": 0.6175929333824071,
+        "AUROC": 0.7746263846296377
+    },
+    {
+        "Method": "NLI",
+        "Test records": 2700,
+        "Accuracy": 0.49074074074074076,
+        "Precision": 0.4006439742410304,
+        "Recall": 0.9236479321314952,
+        "F1-score": 0.5588707090150786,
+        "AUROC": 0.6709314838811697
+    }
+]

@@ -1,0 +1,31 @@
+{
+    "method": "lexical_overlap",
+    "dataset": "RAGTruth",
+    "split": "test",
+    "test_records": 2700,
+    "positive_labels": 943,
+    "negative_labels": 1757,
+    "threshold": 0.2,
+    "threshold_status": "selected using validation F1",
+    "validation_f1": 0.685207100591716,
+    "source_text_fields": [
+        "source",
+        "source_info"
+    ],
+    "accuracy": 0.6151851851851852,
+    "precision": 0.47294250281848926,
+    "recall": 0.8897136797454931,
+    "f1": 0.6175929333824071,
+    "confusion_matrix": [
+        [
+            822,
+            935
+        ],
+        [
+            104,
+            839
+        ]
+    ],
+    "auroc": 0.7746263846296377,
+    "missing_source_records": 0
+}

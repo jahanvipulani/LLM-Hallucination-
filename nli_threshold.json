@@ -1,0 +1,6 @@
+{
+  "threshold": 0.2,
+  "training_sample_size": 200,
+  "random_seed": 42,
+  "selection_metric": "F1-score"
+}

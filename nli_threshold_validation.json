@@ -1,0 +1,21 @@
+{
+    "model_name": "cross-encoder/nli-deberta-v3-small",
+    "threshold": 0.7,
+    "selection_metric": "validation_f1",
+    "validation_f1": 0.6565045992115637,
+    "validation_accuracy": 0.5669317428760768,
+    "validation_precision": 0.5077235772357723,
+    "validation_recall": 0.9286245353159851,
+    "validation_records": 3018,
+    "random_state": 42,
+    "validation_size": 0.2,
+    "split_method": "StratifiedGroupKFold",
+    "group_column": "source_id",
+    "max_length": 512,
+    "unsupported_score": "P(contradiction) + P(neutral)",
+    "source_text_fields": [
+        "source",
+        "source_info"
+    ],
+    "source_field_separator": " "
+}
